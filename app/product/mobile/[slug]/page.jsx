@@ -1,6 +1,6 @@
 import ProductDetailsPage from "./content";
 import axois from "axios";
-
+export const runtime = "edge";
 export async function generateMetadata({ params, searchParams }, parent) {
   // read route params
   const { slug } = params;
